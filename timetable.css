@@ -1,0 +1,76 @@
+body
+{
+font-family: Arial;
+background: #f4f6ff;
+text-align: center;
+}
+
+.title
+{
+margin: 20px;
+color: #333;
+}
+
+table
+{
+margin: auto;
+border-collapse: collapse; /* Ensures that the borders of the table cells are collapsed into a single border for a cleaner look */
+width: 80%;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+th, td
+{
+padding: 12px;
+border: 1px solid #ddd;
+}
+
+th
+{
+background: #4CAF50;
+color: white;
+}
+
+tr:hover
+{
+background: #f1f1f1;
+}
+
+/* Subject Colors */
+
+.math
+{
+background: #ffd6d6;
+}
+
+.science
+{
+background: #d6f5ff;/*hexadecimal color code for a light cyan background, which is often associated with science and technology themes, providing a fresh and clean look to the timetable. */
+}
+
+.history
+{
+background: #fff0b3;
+}
+
+.english
+{
+background: #e6ccff;
+}
+
+.art
+{
+background: #ffe0cc;
+}
+
+.sports
+{
+background: #d6ffd6;
+}
+
+.break
+{
+background: #333;
+color: white;
+font-weight: bold;
+}
